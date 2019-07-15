@@ -36,16 +36,15 @@ function calculadora (operador, valor1, valor2) { // Ejercicio 8
         console.log("La suma de "+valor1+ " mas "+valor2 + " es "+ valor1+valor2);
     }
     if (operador == "resta"){
-        console.log("La resta de "+valor1+ " menos "+valor2 + " es "+ valor1-valor2);
+        console.log("La resta de "+valor1+ " menos "+valor2 + " es "+ (valor1-valor2))
     }
     if (operador == "multiplicacion"){
         console.log("La multiplicacion de "+valor1+ " por "+valor2 + " es "+ valor1*valor2);
     }
 }
 var resultado = calculadora("suma", 5, 4);
-var resultado = calculadora("resta", 15, 24);
+var resultado = calculadora("resta", 30, 24);
 var resultado = calculadora("multiplicacion", 5, 4);
-console.log(5-4);
 
 
 
